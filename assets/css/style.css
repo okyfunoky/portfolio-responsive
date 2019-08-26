@@ -181,3 +181,21 @@ footer {
     left:0;
     top: 75%;
 }
+
+@media screen and (max-width: 980px){
+    body {
+        background-color: salmon;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body {
+        background-color: slateblue;
+    }
+}
+
+@media screen and (max-width: 640px){
+    body {
+        background-color: saddlebrown;
+    }
+}
