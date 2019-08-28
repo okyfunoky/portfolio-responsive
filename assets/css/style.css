@@ -220,6 +220,11 @@ footer {
 
 @media screen and (max-width: 980px) {
 
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+    
     .main-body {
         width: 90%;
         text-align: center;
@@ -245,10 +250,7 @@ footer {
         width: auto;
         align-items: center;
     }
-    
-    .name,.nav-list {
-        
-    }
+
     
     .nav-list-item {
         display: flex;
@@ -258,13 +260,16 @@ footer {
         font-family: 'Georgia', Times, 'Times New Roman', serif;
     }
 
+    .page-type {
+        display: block;
+    }
+
     .portfolio-wrapper {
-        display: initial;
+        display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
-        height: 70%;
-        width: 66%;
-        margin: 10px;
-        padding: 0;
+        align-items: flex-end;
+        margin: 0px;
     }
 
     .top-bar {
